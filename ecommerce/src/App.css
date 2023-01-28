@@ -10,3 +10,24 @@ a {
   text-decoration: none;
   display: inline-block;
 }
+.gap-10 {
+  gap: 10px;
+}
+.gap-15 {
+  gap: 15px;
+}
+
+/*----------- Header -----------*/
+
+.header-top-strip {
+  background-color: silver;
+  border-bottom: 1px solid black;
+}
+.header-upper {
+  background-color: silver;
+}
+.header-upper .input-group-text {
+  background-color: rgb(214, 162, 18);
+}
+
+/*----------- Header end -----------*/
