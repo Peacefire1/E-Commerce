@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import { BsSearch } from "react-icons/bs";
+import { Dropdown } from "bootstrap";
 
 const Header = () => {
   return (
@@ -86,18 +87,47 @@ const Header = () => {
           </div>
         </div>
       </header>
-      <header className="header-btton py-3">
+      <header className="header-btton py-3 bg-warning">
         <div className="container-xxl">
           <div className="row">
             <div className="col-12">
-              <div className="menu-bottom d-flex align-items-center">
-                <div></div>
+              <div className="menu-bottom d-flex align-items-center gap-30 ">
+                <div>
+                  <div className="dropdown">
+                    <button
+                      className="btn btn-secondary dropdown-toggle d-flex align-items-center gap-15 "
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <img src="images/menu.svg" alt="" />
+                      <span>Shop Categories</span>
+                    </button>
+                    <ul className="dropdown-menu">
+                      <li>
+                        <Link className="dropdown-item" to="/">
+                          Action
+                        </Link>
+                      </li>
+                      <li>
+                        <Link className="dropdown-item" to="/">
+                          Another action
+                        </Link>
+                      </li>
+                      <li>
+                        <Link className="dropdown-item" to="/">
+                          Something else here
+                        </Link>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
                 <div className="menu-links">
                   <div className="d-flex align-item-center gap-15">
-                    <NavLink>Home</NavLink>
-                    <NavLink>Our Store</NavLink>
-                    <NavLink>Blogs</NavLink>
-                    <NavLink>Contact</NavLink>
+                    <NavLink to="/">Home</NavLink>
+                    <NavLink to="/">Our Store</NavLink>
+                    <NavLink to="/">Blogs</NavLink>
+                    <NavLink to="contact">Contact</NavLink>
                   </div>
                 </div>
               </div>
