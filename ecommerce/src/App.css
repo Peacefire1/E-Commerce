@@ -23,6 +23,19 @@ a {
   text-decoration: none;
   color: aliceblue;
 }
+.button {
+  background-color: rgb(16, 21, 58);
+  color: white;
+  font-size: 14px;
+  padding: 13px 33px;
+  border-radius: 25px;
+  text-decoration: none;
+}
+.button:hover {
+  background-color: orange;
+  color: black;
+}
+
 /*----------- Header -----------*/
 
 .header-top-strip {
@@ -70,3 +83,59 @@ footer:first-child {
 }
 
 /*----------- Footer End -----------*/
+
+/* ------------- Home Page ------------ */
+
+.main-banner-content {
+  top: 15%;
+  left: 5%;
+}
+
+.main-banner-content h4 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #bf4800;
+  margin: 0 0 12px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+
+.main-banner-content h5 {
+  font-size: 42px;
+  line-height: 54px;
+  letter-spacing: -2px;
+  font-weight: 500;
+  padding: 0;
+  text-transform: none;
+}
+
+.small-banner-content {
+  top: 25%;
+  left: 10%;
+}
+
+.small-banner-content h4 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #bf4800;
+  margin: 0 0 12px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+
+.small-banner-content h5 {
+  font-size: 22px;
+  line-height: 34px;
+  letter-spacing: -2px;
+  font-weight: 500;
+  padding: 0;
+  text-transform: none;
+}
+
+.small-banner {
+  width: 49%;
+}
+
+/* ------------- Home Page ------------ */
