@@ -30,7 +30,7 @@ const Header = () => {
           <div className="row align-items-center">
             <div className="col-2">
               <h2>
-                <Link className="text-white">Dev Corner</Link>
+                <Link className="text-white links">Dev Corner</Link>
               </h2>
             </div>
             <div className="col-5">
@@ -50,7 +50,7 @@ const Header = () => {
             <div className="col-5">
               <div className="header-upper-links d-flex align-items-center justify-content-between">
                 <div>
-                  <Link className="d-flex align-items-center gap-10">
+                  <Link className="links d-flex align-items-center gap-10">
                     <img src="/images/compare.svg" alt="compare" />
                     <p className="mb-0">
                       Compare <br /> Products
@@ -58,7 +58,7 @@ const Header = () => {
                   </Link>
                 </div>
                 <div>
-                  <Link className="d-flex align-items-center gap-10">
+                  <Link className="links d-flex align-items-center gap-10">
                     <img src="/images/wishlist.svg" alt="wishlist" />
                     <p className="mb-0">
                       Favourtite <br /> wishlist
@@ -66,7 +66,7 @@ const Header = () => {
                   </Link>
                 </div>
                 <div>
-                  <Link className="d-flex align-items-center gap-10">
+                  <Link className="links d-flex align-items-center gap-10">
                     <img src="/images/user.svg" alt="user" />
                     <p className="mb-0">
                       Login <br /> My Account
@@ -74,7 +74,7 @@ const Header = () => {
                   </Link>
                 </div>
                 <div>
-                  <Link className="d-flex align-items-center gap-10">
+                  <Link className="links d-flex align-items-center gap-10">
                     <img src="/images/cart.svg" alt="cart" />
                     <div className="d-flex flex-column">
                       <span className="badge bg-white text-dark">0</span>
@@ -105,17 +105,17 @@ const Header = () => {
                     </button>
                     <ul className="dropdown-menu">
                       <li>
-                        <Link className="dropdown-item" to="/">
+                        <Link className="dropdown-item links" to="/">
                           Action
                         </Link>
                       </li>
                       <li>
-                        <Link className="dropdown-item" to="/">
+                        <Link className="dropdown-item links" to="/">
                           Another action
                         </Link>
                       </li>
                       <li>
-                        <Link className="dropdown-item" to="/">
+                        <Link className="dropdown-item links" to="/">
                           Something else here
                         </Link>
                       </li>
