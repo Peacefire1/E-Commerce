@@ -19,15 +19,18 @@ a {
 .gap-30 {
   gap: 30px;
 }
-
+.links {
+  text-decoration: none;
+  color: aliceblue;
+}
 /*----------- Header -----------*/
 
 .header-top-strip {
   background-color: silver;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid silver;
 }
 .header-upper {
-  background-color: silver;
+  background-color: grey;
 }
 .header-upper .input-group-text {
   background-color: rgb(214, 162, 18);
@@ -43,3 +46,27 @@ a {
 }
 
 /*----------- Header end -----------*/
+
+/*----------- Footer -----------*/
+
+footer {
+  background-color: grey;
+}
+
+footer:nth-child(3) {
+  border-top: 1px silver solid;
+}
+footer:first-child {
+  border-bottom: 1px silver solid;
+}
+
+.f-links {
+  text-decoration: none;
+  color: white;
+}
+
+.f-links:hover {
+  color: black;
+}
+
+/*----------- Footer End -----------*/
