@@ -85,6 +85,51 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <section className="home-wrapper-2">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-12">
+              <div className="services d-flex align-items-center justify-content-between">
+                <div>
+                  <img src="images/service.png" alt="services" />
+                  <div>
+                    <h6>Free Shipping</h6>
+                    <p>From all orders over $5</p>
+                  </div>
+                </div>
+                <div>
+                  <img src="images/service-02.png" alt="services" />
+                  <div>
+                    <h6>Daily Surprise Offers</h6>
+                    <p>Save up to 25% off</p>
+                  </div>
+                </div>
+                <div>
+                  <img src="images/service-03.png" alt="services" />
+                  <div>
+                    <h6>Support 24/7</h6>
+                    <p>Shop with an expert</p>
+                  </div>
+                </div>
+                <div>
+                  <img src="images/service-04.png" alt="services" />
+                  <div>
+                    <h6>Affordable Prices</h6>
+                    <p>Get Factory Default Price</p>
+                  </div>
+                </div>
+                <div>
+                  <img src="images/service-05.png" alt="services" />
+                  <div>
+                    <h6>Secure Payments</h6>
+                    <p>100% Protected</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };
