@@ -1,7 +1,12 @@
 import React from "react";
+import BreadCrumb from "../components/BreadCrumb";
 
 const OurStore = () => {
-  return <div>store</div>;
+  return (
+    <div>
+      <BreadCrumb title="Our Sotre" />
+    </div>
+  );
 };
 
 export default OurStore;
