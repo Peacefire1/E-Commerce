@@ -35,6 +35,11 @@ a {
   background-color: orange;
   color: black;
 }
+.card-wrapper {
+  background-color: white;
+  box-shadow: 0 0 10px #0000001a;
+  padding: 15px;
+}
 
 /*----------- Header -----------*/
 
@@ -144,5 +149,71 @@ footer:first-child {
 }
 
 /* -------Home wrapper 2 --------- */
+/* -------- categories section  -------- */
+
+.categories {
+  background-color: white;
+  box-shadow: 0 0 10px #0000001a;
+  padding: 15px;
+}
+.categories > div {
+  width: 24%;
+}
+
+.categories > div:nth-child(1),
+.categories > div:nth-child(2),
+.categories > div:nth-child(3),
+.categories > div:nth-child(4) {
+  border-bottom: 1px solid #ededed;
+}
+.categories > div:nth-child(1),
+.categories > div:nth-child(2),
+.categories > div:nth-child(3) {
+  border-right: 1px solid #ededed;
+}
+
+/* -------- categories section  -------- */
 
 /* ------------- Home Page ------------ */
+
+/* ---------- Blog Cards ----------- */
+
+.blog-card {
+  background-color: white;
+  border-radius: 10px;
+}
+.blog-card img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.blog-content {
+  padding: 15px;
+}
+
+/* ---------- Blog Cards ----------- */
+
+/* ----------- Product Card ---------- */
+
+.product-card {
+  padding: 15px;
+  background-color: white;
+  /* box-shadow: ; */
+  border-radius: 10px;
+  overflow: hidden;
+}
+.product-card:hover .action-bar {
+  right: 10px;
+}
+.product-card .product-details h6 {
+  color: #bf4800;
+  font-size: 13px;
+}
+.product-card .product-details p.price {
+  font-size: 16px;
+}
+.action-bar {
+  top: 10%;
+  right: -23px;
+  transition: 0.3s;
+}
+/* ----------- Product Card ---------- */
