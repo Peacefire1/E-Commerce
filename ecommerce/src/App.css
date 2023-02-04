@@ -266,3 +266,29 @@ footer:first-child {
   font-weight: 100;
 }
 /* ----------- famouse card ----------- */
+/* Our Store */
+.filter-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10xp 15px;
+}
+.filter-title {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.filter-card ul {
+  list-style-type: none;
+  font-size: 13px;
+  line-height: 30px;
+  color: silver;
+  cursor: pointer;
+}
+.sub-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: silver;
+  margin-bottom: 15px;
+}
+/* Our Store */
